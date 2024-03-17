@@ -1,4 +1,4 @@
-package com.project.sample;
+package com.blacksmith.ecommerce;
 
 import java.text.DateFormat;
 import java.util.Date;

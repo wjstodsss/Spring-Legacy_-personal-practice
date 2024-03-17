@@ -10,6 +10,6 @@
 	Hello world!  
 </h1>
 <P>  The time on the server is ${serverTime}. </P>
-<a href="/admin/login">관리자</a>
+<a href="/logout">로그아웃</a>
 </body>
 </html>
