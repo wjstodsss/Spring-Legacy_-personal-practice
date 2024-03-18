@@ -1,4 +1,4 @@
-package com.blacksmith.ecommerce.admin.filter;
+package com.blacksmith.ecommerce.filter;
 
 import java.io.IOException;
 
@@ -24,7 +24,7 @@ public class SecurityFilter implements Filter {
 	    
 	    System.out.println(session);
 	    // 세션에서 로그인 여부를 확인
-	    if (session != null && session.getAttribute("email") != null) {
+	    if (session != null && session.getAttribute("userEmail") != null) {
 	        // 로그인된 사용자의 경우 요청을 그대로 전달
 	        chain.doFilter(request, response);
 	    } else {

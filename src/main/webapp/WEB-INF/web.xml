@@ -45,13 +45,8 @@
 	<!-- filter-mapping 위에 등록한 filter를 적용하려는 대상을 지정 -->
 	<filter-mapping>
 		<filter-name>SecurityFilter</filter-name>
-		<url-pattern>/adminsecured/*</url-pattern>
+		<url-pattern>/admin/secured/*</url-pattern>
 	</filter-mapping>
 
-	<!-- 다른 폴더에서 사용하려면 추가로 지정하면 됩니다. -->
-	<filter-mapping>
-		<filter-name>SecurityFilter</filter-name>
-		<url-pattern>/shopsecured/*</url-pattern>
-	</filter-mapping>
-
+	
 </web-app>
