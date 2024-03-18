@@ -51,14 +51,14 @@ body {
                     <div class="form-group row">
                         <label for="email" class="col-md-3 col-form-label">이메일</label>
                         <div class="col-md-9">
-                            <input type="email" class="form-control" id="email" placeholder="이메일을 입력해주세요." value="" name="userEmail" required>
+                            <input type="email" class="form-control" id="email" placeholder="이메일을 입력해주세요." value="" name="email" required>
                         </div>
                     </div>
                     <!-- 비밀번호 입력란 -->
                     <div class="form-group row">
                         <label for="password" class="col-md-3 col-form-label">비밀번호</label>
                         <div class="col-md-9">
-                            <input type="password" class="form-control" id="password" placeholder="비밀번호를 입력해주세요." value="" name="userPassword" required>
+                            <input type="password" class="form-control" id="password" placeholder="비밀번호를 입력해주세요." value="" name="password" required>
                         </div>
                     </div>
                     <!-- 로그인 버튼 -->

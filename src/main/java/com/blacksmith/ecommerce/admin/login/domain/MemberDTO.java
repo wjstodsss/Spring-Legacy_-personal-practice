@@ -13,8 +13,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class MemberDTO {
     private Long id;
-    private String userName;
-    private String userPassword;
-    private String userEmail;
+    private String name;
+    private String password;
+    private String email;
     private LocalDateTime createdAt;
 }
