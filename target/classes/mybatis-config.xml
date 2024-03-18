@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <typeAliases>
+        <typeAlias type="com.blacksmith.ecommerce.admin.login.domain.MemberDTO" alias="member"></typeAlias>
+        <!-- 별칭 추가 -->
+        <typeAlias type="com.blacksmith.ecommerce.admin.user.domain.UserDTO" alias="user"></typeAlias>
+    </typeAliases>
+
+    <mappers>
+        <mapper resource="mapper/loginMapper.xml"/>
+        <!-- 매퍼 추가 일단 추가해 놓고 사용할때 주석을 풀어주자 -->  
+        <mapper resource="mapper/userMapper.xml"/>
+       
+      
+    </mappers>
+    
+    
+</configuration>
