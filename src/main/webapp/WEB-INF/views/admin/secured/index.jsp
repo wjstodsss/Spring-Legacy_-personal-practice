@@ -11,6 +11,7 @@
 </h1>
 <P>  The time on the server is ${serverTime}. </P>
 <a href="/logout">로그아웃</a>
-<a href="/admin/list">회원 관리 페이지</a>
+<!-- 필터 적용을 위해 /admin/secured포함 경로 생성-->
+<a href="/admin/secured/user_list">회원 관리 페이지</a>
 </body>
 </html>
