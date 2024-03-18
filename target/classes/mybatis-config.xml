@@ -4,16 +4,16 @@
 <configuration>
     <typeAliases>
         <typeAlias type="com.blacksmith.ecommerce.admin.login.domain.MemberDTO" alias="member"></typeAlias>
-        <!-- 별칭 추가 -->
         <typeAlias type="com.blacksmith.ecommerce.admin.user.domain.UserDTO" alias="user"></typeAlias>
+        <!-- 별칭 추가 -->
+        <typeAlias type="com.blacksmith.ecommerce.admin.product.domain.ProductDTO" alias="product"></typeAlias>
     </typeAliases>
 
     <mappers>
         <mapper resource="mapper/loginMapper.xml"/>
-        <!-- 매퍼 추가 일단 추가해 놓고 사용할때 주석을 풀어주자 -->  
         <mapper resource="mapper/userMapper.xml"/>
-       
-      
+        <!-- 매퍼 추가 -->
+        <mapper resource="mapper/productMapper.xml"/>
     </mappers>
     
     

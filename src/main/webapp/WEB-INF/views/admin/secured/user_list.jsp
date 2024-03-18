@@ -55,7 +55,7 @@
 
 	        $.ajax({
 	            type: "POST",
-	            url: "/admin/delete",
+	            url: "/admin/product/delete",
 	            data: { id: id },
 	            success: function(response) {
 	                // 삭제 성공 시 페이지를 다시 로드

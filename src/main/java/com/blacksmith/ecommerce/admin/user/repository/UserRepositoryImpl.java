@@ -19,13 +19,17 @@ public class UserRepositoryImpl implements UserRepository {
         return sqlSessionTemplate.selectList("mapper.userMapper.getUserList");
     }
     
+    @Override
     public void delete(int id) {
 		sqlSessionTemplate.delete("mapper.userMapper.delete", id);
 	}
     
+    @Override
     public UserDTO getOne(int id) {
 		return sqlSessionTemplate.selectOne("mapper.userMapper.getOne", id);
 	}
+    
+    @Override
     public int update(UserDTO userDTO) {
 	    return sqlSessionTemplate.update("mapper.userMapper.update", userDTO);
 	}

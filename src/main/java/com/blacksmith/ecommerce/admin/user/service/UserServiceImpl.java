@@ -14,18 +14,22 @@ import lombok.RequiredArgsConstructor;
 public class UserServiceImpl implements UserService {
 	private final UserRepository userRepository;
 	
+	@Override
 	public List<UserDTO> getUserList() {
 		return (List<UserDTO>) userRepository.getUserList();
 	};
 	
+	@Override
 	public void delete(int id) {
 		userRepository.delete(id);
 	}
 	
+	@Override
 	public UserDTO getOne(int id) {
 		return userRepository.getOne(id);
 	}
 	
+	@Override
 	public int update(UserDTO userDTO) {
 		return userRepository.update(userDTO);
 	}

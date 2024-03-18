@@ -25,9 +25,7 @@ public class UserController {
 	@GetMapping("/secured/user_list")
 	public String getUserList(Model model) {
 		List<UserDTO> list = userService.getUserList();
-		System.out.println(list);
 		model.addAttribute("users", list);
-		System.out.println(model);
 		return "admin/secured/user_list";
 	}
 	
@@ -47,8 +45,8 @@ public class UserController {
 	
 	@PostMapping("/update")
 	public String update(UserDTO userDTO, RedirectAttributes redirectAttributes) {
-		System.out.println(userDTO + "pp");
 	    int result = userService.update(userDTO);
+	    System.out.println(result);
 	    if (result > 0) {
 	        redirectAttributes.addFlashAttribute("msg", "사용자 정보가 성공적으로 업데이트되었습니다.");
 	        return "redirect:/admin/secured/user_list";
