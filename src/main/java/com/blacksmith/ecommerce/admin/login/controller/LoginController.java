@@ -41,7 +41,6 @@ public class LoginController {
 
 	@GetMapping("/secured/index")
 	public String securedList() {
-		System.out.println("ok");
 		return "/admin/secured/index";
 	}
 
