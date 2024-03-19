@@ -3,56 +3,56 @@
     "name": "해물부추전 200g",
     "description": "노릇노릇 구워진 해물부추전",
     "price": "5000",
-    "imageUrl": "resources/img/product/jeon/jeon001.jpg",
+    "imageUrl": "jeon001.jpg",
     "category": "5"
   },
   {
     "name": "김치전 200g",
     "description": "직접 담근 김치로 구워낸",
     "price": "5000",
-    "imageUrl": "resources/img/product/jeon/jeon002.jpg",
+    "imageUrl": "jeon002.jpg",
     "category": "5"
   },
   {
     "name": "진가네 깻잎전 5개/150g",
     "description": "정성으로 직접 구워낸",
     "price": "9000",
-    "imageUrl": "resources/img/product/jeon/jeon003.jpg",
+    "imageUrl": "jeon003.jpg",
     "category": "5"
   },
   {
     "name": "동그랑땡 8개/300g",
     "description": "두툼하게 직접 빚어낸",
     "price": "9000",
-    "imageUrl": "resources/img/product/jeon/jeon004.jpg",
+    "imageUrl": "jeon004.jpg",
     "category": "5"
   },
   {
     "name": "부추겉절이와육전 *g",
     "description": "술 안주로 제격인",
     "price": "16000",
-    "imageUrl": "resources/img/product/jeon/jeon005.jpg",
+    "imageUrl": "jeon005.jpg",
     "category": "5"
   },
   {
     "name": "표고전 6개/220g",
     "description": "표고로 만든 고급전",
     "price": "9000",
-    "imageUrl": "resources/img/product/jeon/jeon006.jpg",
+    "imageUrl": "jeon006.jpg",
     "category": "5"
   },
   {
     "name": "소세지전 200g",
     "description": "추억의 반찬",
     "price": "4000",
-    "imageUrl": "resources/img/product/jeon/jeon007.jpg",
+    "imageUrl": "jeon007.jpg",
     "category": "5"
   },
   {
     "name": "특급비법소스 140g",
     "description": "비빔냉면, 고기소스로 좋아요",
     "price": "3000",
-    "imageUrl": "resources/img/product/jeon/etc008.jpg",
+    "imageUrl": "etc008.jpg",
     "category": "5"
   }
 ]

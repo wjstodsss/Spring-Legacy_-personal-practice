@@ -21,7 +21,14 @@
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
 	
+	<beans:bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+    <!-- 최대 업로드 파일 크기 설정 -->
+    	<beans:property name="maxUploadSize" value="20971520" />
+	</beans:bean>
+	
 	<context:component-scan base-package="com.blacksmith.ecommerce" />
+	
+	<context:component-scan base-package="com.project.sample" />
 	
 	
 	

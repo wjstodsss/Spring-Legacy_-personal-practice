@@ -3,126 +3,126 @@
     "name": "새우볶음 75g",
     "description": "달콤고소 눅눅하지 않아요!",
     "price": "4000",
-    "imageUrl": "resources/img/product/mitbachan/mbc001.jpg",
+    "imageUrl": "mbc001.jpg",
     "category": "2"
   },
   {
     "name": "검정콩조림 100g",
     "description": "국내산 검정콩을 직접 삶아 만든 검정콩조림",
     "price": "4000",
-    "imageUrl": "resources/img/product/mitbachan/mbc002.jpg",
+    "imageUrl": "mbc002.jpg",
     "category": "2"
   },
   {
     "name": "멸치양념조림 75g",
     "description": "바쁠 땐 이거 하나로도 한 끼 해결!",
     "price": "3000",
-    "imageUrl": "resources/img/product/mitbachan/mbc003.jpg",
+    "imageUrl": "mbc003.jpg",
     "category": "2"
   },
   {
     "name": "대왕오징어간장조림 100g",
     "description": "감칠맛과 식감을 즐길 수 있는",
     "price": "5000",
-    "imageUrl": "resources/img/product/mitbachan/mbc004.jpg",
+    "imageUrl": "mbc004.jpg",
     "category": "2"
   },
   {
     "name": "지리멸치볶음 75g",
     "description": "아이반찬으로 적극추천",
     "price": "4000",
-    "imageUrl": "resources/img/product/mitbachan/mbc005.jpg",
+    "imageUrl": "mbc005.jpg",
     "category": "2"
   },
   {
     "name": "매콤한진미채볶음 75g",
     "description": "밑반찬계의 어머니",
     "price": "4000",
-    "imageUrl": "resources/img/product/mitbachan/mbc006.jpg",
+    "imageUrl": "mbc006.jpg",
     "category": "2"
   },
   {
     "name": "어묵간장볶음 150g",
     "description": "남녀노소 누구나 좋아하는!",
     "price": "3000",
-    "imageUrl": "resources/img/product/mitbachan/mbc008.jpg",
+    "imageUrl": "mbc008.jpg",
     "category": "2"
   },
   {
     "name": "오이볶음 150g",
     "description": "꼬독꼬독하고 산뜻한",
     "price": "5000",
-    "imageUrl": "resources/img/product/mitbachan/mbc009.jpg",
+    "imageUrl": "mbc009.jpg",
     "category": "2"
   },
   {
     "name": "어묵양념볶음 150g",
     "description": "남녀노소 누구나 좋아하는!",
     "price": "3000",
-    "imageUrl": "resources/img/product/mitbachan/mbc010.jpg",
+    "imageUrl": "mbc010.jpg",
     "category": "2"
   },
   {
     "name": "어묵잡채 150g",
     "description": "고소담백 맛이 일품인",
     "price": "5000",
-    "imageUrl": "resources/img/product/mitbachan/mbc011.jpg",
+    "imageUrl": "mbc011.jpg",
     "category": "2"
   },
   {
     "name": "국민반찬set3종 *g",
     "description": "순한진미채,건새우(순한맛),멸치간장볶음",
     "price": "11000",
-    "imageUrl": "resources/img/product/mitbachan/mbc012.jpg",
+    "imageUrl": "mbc012.jpg",
     "category": "2"
   },
   {
     "name": "오징어채양념볶음 75g",
     "description": "매콤하고 쫄깃한 별미 밑반찬",
     "price": "4000",
-    "imageUrl": "resources/img/product/mitbachan/mbc013.jpg",
+    "imageUrl": "mbc013.jpg",
     "category": "2"
   },
   {
     "name": "순한진미채볶음 75g",
     "description": "진가네 최고의 베스트셀러",
     "price": "4000",
-    "imageUrl": "resources/img/product/mitbachan/mbc014.jpg",
+    "imageUrl": "mbc014.jpg",
     "category": "2"
   },
   {
     "name": "땅콩조림 100g",
     "description": "인기만점 아이반찬!",
     "price": "3000",
-    "imageUrl": "resources/img/product/mitbachan/mbc015.jpg",
+    "imageUrl": "mbc015.jpg",
     "category": "2"
   },
   {
     "name": "호두아몬드땅콩조림 200g",
     "description": "최고의 건강반찬",
     "price": "5000",
-    "imageUrl": "resources/img/product/mitbachan/mbc016.jpg",
+    "imageUrl": "mbc016.jpg",
     "category": "2"
   },
   {
     "name": "노란콩조림 100g",
     "description": "영양덩어리 노란콩을 담백하게",
     "price": "3000",
-    "imageUrl": "resources/img/product/mitbachan/mbc017.jpg",
+    "imageUrl": "mbc017.jpg",
     "category": "2"
   },
   {
     "name": "오징어채간장볶음 75g",
     "description": "반찬걱정은 훌훌 털어요~",
     "price": "4000",
-    "imageUrl": "resources/img/product/mitbachan/mbc018.jpg",
+    "imageUrl": "mbc018.jpg",
     "category": "2"
   },
   {
     "name": "멸치양념볶음 300g",
     "description": "바쁠 땐 이거 하나로도 한 끼 해결!",
     "price": "14000",
-    "imageUrl": "resources/img/product/mitbachan/mbc007.jpg",
+    "imageUrl": "mbc007.jpg",
     "category": "2"
   }
 ]
