@@ -5,14 +5,15 @@
     <typeAliases>
         <typeAlias type="com.blacksmith.ecommerce.admin.login.domain.MemberDTO" alias="member"></typeAlias>
         <typeAlias type="com.blacksmith.ecommerce.admin.user.domain.UserDTO" alias="user"></typeAlias>
-        <!-- 별칭 추가 -->
         <typeAlias type="com.blacksmith.ecommerce.admin.product.domain.ProductDTO" alias="product"></typeAlias>
+        <!-- 별칭 추가 -->
+        <typeAlias type="com.blacksmith.ecommerce.admin.inventory.domain.InventoryDTO" alias="inventory"></typeAlias>
     </typeAliases>
 
     <mappers>
+    	<mapper resource="mapper/inventoryMapper.xml"/>	
         <mapper resource="mapper/loginMapper.xml"/>
         <mapper resource="mapper/userMapper.xml"/>
-        <!-- 매퍼 추가 -->
         <mapper resource="mapper/productMapper.xml"/>
     </mappers>
     

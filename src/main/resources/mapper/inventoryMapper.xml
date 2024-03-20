@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mapper.inventoryMapper">
+    <select id="getInventoryList" resultType="inventory">
+        SELECT * FROM tbl_inventory
+    </select>
+    
+    <delete id="delete" parameterType="int">
+        delete from tbl_inventory where id=#{id}
+    </delete>
+    
+     <select id="getOne" parameterType="int" resultType="inventory">
+        SELECT * FROM tbl_inventory where id=#{id}
+    </select>
+    
+     <update id="update" parameterType="inventory">
+	    UPDATE tbl_inventory
+	    SET productName = #{productName}, stockQuantity = #{stockQuantity}, salesQuantity = #{salesQuantity}, orderedQuantity = #{orderedQuantity}, remarks = #{remarks}
+	    WHERE id = #{id}
+	</update>
+	
+	<insert id="insert" parameterType="inventory">
+        insert into tbl_inventory(productName, stockQuantity, salesQuantity, orderedQuantity, remarks)
+        values(#{productName}, #{stockQuantity},#{salesQuantity}, #{orderedQuantity}, #{remarks})
+    </insert>
+</mapper>

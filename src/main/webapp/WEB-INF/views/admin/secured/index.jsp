@@ -14,5 +14,6 @@
 <!-- 필터 적용을 위해 /admin/secured포함 경로 생성-->
 <a href="/admin/secured/user_list">회원 관리 페이지</a>
 <a href="/admin/secured/product_list">상품 관리 페이지</a>
+<a href="/admin/secured/inventory_list">재고 관리 페이지</a>
 </body>
 </html>
