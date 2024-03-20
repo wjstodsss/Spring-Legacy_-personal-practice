@@ -13,6 +13,8 @@
 <body>
 <div class="container">
     <h2>상품 정보</h2>
+    <!-- 상품 등록 버튼 -->
+    <a href="/admin/upload_form" class="btn btn-success mb-3">상품 등록</a>
     <table class="table">
         <thead>
             <tr>
@@ -33,7 +35,7 @@
                     <td>${product.description}</td>
                     <td>${product.price}</td>
                     <td>${product.category}</td>
-                    <td><img src="${product.imageUrl}" alt="Product Image" style="max-width: 100px;"></td>
+                    <td><img src="upload/${product.imageUrl}" alt="Product Image" style="max-width: 100px;"></td>
                     <td>
                         <a href="/admin/secured/product_detail?id=${product.id}" class="btn btn-primary">상세 보기</a>
                         <button type="button" class="btn btn-danger" onclick="deleteProduct(${product.id})">삭제</button>

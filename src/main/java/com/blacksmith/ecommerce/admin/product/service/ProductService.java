@@ -9,4 +9,5 @@ public interface ProductService {
 	void delete(int id);
 	ProductDTO getOne(int id);
 	int update(ProductDTO productDTO);
+	int insert(ProductDTO productDTO);
 }

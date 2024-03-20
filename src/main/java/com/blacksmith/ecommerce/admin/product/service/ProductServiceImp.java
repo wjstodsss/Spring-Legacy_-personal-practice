@@ -34,5 +34,10 @@ public class ProductServiceImp implements ProductService {
 		return productRepository.update(productDTO);
 	}
 	
+	@Override
+	public int insert(ProductDTO productDTO) {
+		return productRepository.insert(productDTO);
+	}
+	
 	
 }

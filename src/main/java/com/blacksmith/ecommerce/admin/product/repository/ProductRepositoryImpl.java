@@ -34,4 +34,9 @@ public class ProductRepositoryImpl implements ProductRepository {
 		return sqlSessionTemplate.update("mapper.productMapper.update", productDTO);
 	}
 	
+	@Override
+	public int insert(ProductDTO productDTO) {
+		return sqlSessionTemplate.insert("mapper.productMapper.insert", productDTO);
+	}
+	
 }

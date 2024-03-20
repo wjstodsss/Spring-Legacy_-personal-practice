@@ -21,4 +21,9 @@
 	    SET name = #{name}, description = #{description}, price = #{price}, category = #{category}, imageUrl = #{imageUrl}
 	    WHERE id = #{id}
 	</update>
+	
+	<insert id="insert" parameterType="product">
+        insert into tbl_product(name, description, price, category, imageUrl)
+        values(#{name}, #{description}, #{price}, #{category}, #{imageUrl})
+    </insert>
 </mapper>
