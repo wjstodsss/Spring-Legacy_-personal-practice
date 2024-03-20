@@ -31,7 +31,7 @@ public class MemberSecurityFilter implements Filter {
 	    } else {
 	    	System.out.println(httpRequest.getContextPath());
 	        // 로그인되지 않은 사용자의 경우 로그인 페이지로 리다이렉트
-	        httpResponse.sendRedirect(httpRequest.getContextPath() + "/admin/login");
+	        httpResponse.sendRedirect(httpRequest.getContextPath() + "/member/login");
 	    }
 	}
     

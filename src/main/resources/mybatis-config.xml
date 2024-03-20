@@ -8,6 +8,7 @@
         <typeAlias type="com.blacksmith.ecommerce.admin.product.domain.ProductDTO" alias="product"></typeAlias>
         <!-- 별칭 추가 -->
         <typeAlias type="com.blacksmith.ecommerce.admin.inventory.domain.InventoryDTO" alias="inventory"></typeAlias>
+        
     </typeAliases>
 
     <mappers>
@@ -15,6 +16,7 @@
         <mapper resource="mapper/loginMapper.xml"/>
         <mapper resource="mapper/userMapper.xml"/>
         <mapper resource="mapper/productMapper.xml"/>
+        <mapper resource="mapper/memberMapper.xml"/>
     </mappers>
     
     

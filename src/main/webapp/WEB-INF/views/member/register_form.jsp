@@ -46,13 +46,13 @@ body {
         <div class="input-form-backgroud row">
             <div class="input-form col-md-6 mx-auto">
                 <h4 class="mb-3">회원가입</h4>
-                <form class="login" action="/member/login" method="POST">
+                <form class="login" action="/member/register" method="POST">
                 
-                	<!-- 비밀번호 입력란 -->
+                	<!-- 이름 입력란 -->
                     <div class="form-group row">
                         <label for="userName" class="col-md-3 col-form-label">이름</label>
                         <div class="col-md-9">
-                            <input type="password" class="form-control" id="userName" placeholder="이름을 입력해주세요." value="" name="userName" required>
+                            <input type="text" class="form-control" id="userName" placeholder="이름을 입력해주세요." value="" name="userName" required>
                         </div>
                     </div>
                
@@ -66,7 +66,7 @@ body {
                     
                     <!-- 비밀번호 입력란 -->
                     <div class="form-group row">
-                        <label for="userPassword" class="col-md-3 col-form-label">이름</label>
+                        <label for="userPassword" class="col-md-3 col-form-label">비밀번호</label>
                         <div class="col-md-9">
                             <input type="password" class="form-control" id="userPassword" placeholder="비밀번호를 입력해주세요." value="" name="userPassword" required>
                         </div>
