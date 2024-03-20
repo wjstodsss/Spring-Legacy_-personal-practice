@@ -54,16 +54,27 @@
 
 	<!-- filter등록 -->
 	<filter>
-		<display-name>SecurityFilter</display-name>
-		<filter-name>SecurityFilter</filter-name>
-		<filter-class>com.blacksmith.ecommerce.filter.SecurityFilter
+		<display-name>AdminSecurityFilter</display-name>
+		<filter-name>AdminSecurityFilter</filter-name>
+		<filter-class>com.blacksmith.ecommerce.filter.AdminSecurityFilter
 		</filter-class>
 	</filter>
 
+	<filter>
+		<display-name>MemberSecurityFilter</display-name>
+		<filter-name>MemberSecurityFilter</filter-name>
+		<filter-class>com.blacksmith.ecommerce.filter.MemberSecurityFilter
+		</filter-class>
+	</filter>
 	<!-- filter-mapping 위에 등록한 filter를 적용하려는 대상을 지정 -->
 	<filter-mapping>
-		<filter-name>SecurityFilter</filter-name>
+		<filter-name>AdminSecurityFilter</filter-name>
 		<url-pattern>/admin/secured/*</url-pattern>
+	</filter-mapping>
+	
+	<filter-mapping>
+		<filter-name>MemberSecurityFilter</filter-name>
+		<url-pattern>/member/secured/*</url-pattern>
 	</filter-mapping>
 
 

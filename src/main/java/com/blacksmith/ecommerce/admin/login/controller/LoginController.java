@@ -31,8 +31,7 @@ public class LoginController {
 		boolean loginResult = loginService.login(memberDTO);
 		
 		if (loginResult) {
-			session.setAttribute("userEmail", memberDTO.getEmail());
-			System.out.println(loginResult);
+			session.setAttribute("adminEmail", memberDTO.getEmail());
 			return "redirect:/admin/secured/index";
 		} else {
 			return "/admin/login";

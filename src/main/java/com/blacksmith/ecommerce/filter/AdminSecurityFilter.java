@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-public class SecurityFilter implements Filter {
+public class AdminSecurityFilter implements Filter {
 
 	@Override
 	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
@@ -24,10 +24,8 @@ public class SecurityFilter implements Filter {
 	    
 	    System.out.println(session);
 	    // 세션에서 로그인 여부를 확인
-	    if (session != null && session.getAttribute("userEmail") != null) {
+	    if (session.getAttribute("adminEmail") != null) {
 	        // 로그인된 사용자의 경우 요청을 그대로 전달
-	    	System.out.println("fffffffffffffffffffffffffff");
-	    	System.out.println(session.getAttribute("userEmail"));
 	        chain.doFilter(request, response);
 	    } else {
 	    	System.out.println(httpRequest.getContextPath());
