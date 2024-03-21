@@ -1,0 +1,93 @@
+[
+  {
+    "name": "고들빼기김치 1kg",
+    "description": "고들빼기로 만든 별미김치",
+    "price": "33000",
+    "imageUrl": "bulk001.jpg",
+    "category": "8"
+  },
+  {
+    "name": "매콤한진미채볶음 300g",
+    "description": "밑반찬계의 어머니",
+    "price": "18000",
+    "imageUrl": "bulk002.jpg",
+    "category": "8"
+  },
+  {
+    "name": "무말랭이김치 300g",
+    "description": "무 손질부터 직접한 무말랭이",
+    "price": "12000",
+    "imageUrl": "bulk003.jpg",
+    "category": "8"
+  },
+  {
+    "name": "무생채 600g",
+    "description": "식욕을 돋아주는 새콤달콤한 무생채",
+    "price": "8000",
+    "imageUrl": "bulk004.jpg",
+    "category": "8"
+  },
+  {
+    "name": "파김치 700g",
+    "description": "깊은 그늘처럼 우묵한 맛",
+    "price": "17000",
+    "imageUrl": "bulk005.jpg",
+    "category": "8"
+  },
+  {
+    "name": "순한진미채볶음 300g",
+    "description": "진가네 최고의 베스트셀러",
+    "price": "16000",
+    "imageUrl": "bulk006.jpg",
+    "category": "8"
+  },
+  {
+    "name": "청양고추멸치볶음 300g",
+    "description": "입 맛 살려주는 매콤함",
+    "price": "17000",
+    "imageUrl": "bulk007.jpg",
+    "category": "8"
+  },
+  {
+    "name": "검정콩조림 400g",
+    "description": "국내산 검정콩을 직접 삶아 만든 검정콩조림",
+    "price": "16000",
+    "imageUrl": "bulk008.jpg",
+    "category": "8"
+  },
+  {
+    "name": "멸치양념볶음 300g",
+    "description": "바쁠 땐 이거 하나로도 한 끼 해결!",
+    "price": "14000",
+    "imageUrl": "bulk009.jpg",
+    "category": "8"
+  },
+  {
+    "name": "지리멸치볶음 300g",
+    "description": "아이반찬으로 적극추천",
+    "price": "18000",
+    "imageUrl": "bulk010.jpg",
+    "category": "8"
+  },
+  {
+    "name": "새우볶음 300g",
+    "description": "달콤고소 눅눅하지 않아요!",
+    "price": "17000",
+    "imageUrl": "bulk011.jpg",
+    "category": "8"
+  },
+  {
+    "name": "땅콩조림 450g",
+    "description": "인기만점 아이반찬!",
+    "price": "15000",
+    "imageUrl": "bulk012.jpg",
+    "category": "8"
+  },
+  {
+    "name": "수제카레 500g",
+    "description": "한 끼 해결하기 좋은",
+    "price": "8000",
+    "imageUrl": "bulk013.jpg",
+    "category": "8"
+  }
+]
