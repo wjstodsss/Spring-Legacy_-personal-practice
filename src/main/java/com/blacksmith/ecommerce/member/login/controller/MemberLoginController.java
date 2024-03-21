@@ -36,7 +36,6 @@ public class MemberLoginController {
         memberLoginService.register(userDTO);   
         return "redirect:/member/login";
     }
-
 	
 	@GetMapping("/login")
 	public String memberLoginFrom() {

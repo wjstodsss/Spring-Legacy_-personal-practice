@@ -10,8 +10,6 @@
 	Hello world! 우리끼리만 맛난거 먹자!!
 </h1>
 <P>  The time on the server is ${serverTime}. </P>
-<a href="/admin/login">관리자</a>
-<a href="/member/register">회원가입</a>
-<a href="/member/login">로그인</a>
+<a href="/logout">로그아웃</a>
 </body>
 </html>
