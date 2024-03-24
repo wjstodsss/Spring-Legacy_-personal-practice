@@ -42,6 +42,7 @@ public class MemberLoginController {
 		return "/member/member_login";
 	}
 	
+	
 	@PostMapping("/login")
 	public String memberLogin(@ModelAttribute UserDTO userDTO, HttpSession session) {
 	    // 사용자가 입력한 아이디로 데이터베이스에서 사용자 정보 조회
@@ -61,5 +62,15 @@ public class MemberLoginController {
 	public String welcome() {
 		return "/member/secured/index";
 	}
+	
+
+//	@GetMapping("/secured/test1")
+//	public String member1() {
+//		return "/member/secured/test1";
+//	}
+//	@GetMapping("/secured/test2")
+//	public String member2() {
+//		return "/member/secured/test2";
+//	}
 	
 }
